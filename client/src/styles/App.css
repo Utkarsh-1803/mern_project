@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.users-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.boxdesign {
+  border: 1px solid black;
+  box-shadow: 7px 7px;
+  width: 43%;
+}
+
+.boxdesign button {
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #6200ee;
+  border-radius: 2px;
+  color: #fff;
+  padding: 7px;
+  outline: none;
+}
+.boxdesign button:hover {
+  cursor: pointer;
+}
